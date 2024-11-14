@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Sono", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(221, 210, 210);
+  }
+  .pricing-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    width: 1200px;
+    height: 500px;
+    background-color: darkgray;
+  }
+  .pricing-plan{
+    background-color: white;
+    height: 400px;
+    width: 260px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .plan-title{
+    background-color:mediumblue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+  }
+  .plan-title2{
+    background-color:darkmagenta;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+  }
+  .plan-title3{
+    background-color:fuchsia;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+  }
+  .plan-price{
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(63, 63, 228);
+  }
+  .plan-features{
+    padding-left: 30px;
+    display: flex;
+    row-gap: 15px;
+    
+    flex-direction: column;
+    
+  }
+  
+  ul {
+      list-style-type: none;
+  }
+  .plan-button{
+    margin-top: 40px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumblue;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 15px;
+  }
+  .plan-button2{
+    margin-top: 40px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color:darkmagenta;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 15px;
+  }
+  .plan-button3{
+    margin-top: 40px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color:darkviolet;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 15px;
+  }
+  .plan-button:hover{
+    background-color: darkblue;
+  }
+  .plan-button2:hover{
+    background-color: darkblue;
+  }
+  .plan-button3:hover{
+    background-color: darkblue;
+  }
+  /* Hint: What can you do with a media query and flexbox? */
+  @media (max-width: 1250px){
+    .pricing-container{
+        flex-direction: column;
+        width: 100%; 
+        height: auto;
+        padding: 20px;
+    }
+    .pricing-plan {
+      margin-bottom: 20px; 
+    }
+  }
